@@ -8,6 +8,7 @@ topics.forEach((topic) => {
   topicLi.innerText = topic;
   topicsUl.append(topicLi);
   topicLIs.push(topicLi);
+
   // topicLi.remove();
 });
 

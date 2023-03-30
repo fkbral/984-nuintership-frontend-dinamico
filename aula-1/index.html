@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de introdução</title>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      min-height: 100vh;
+    }
+
+    /* #title {
+      font-size: 52px;
+    } */
+
+    h1{
+      color: red;
+    }
+
+    .user-name {
+      color: blueviolet;
+    }
+
+    h3 [data-user-name] {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+  </style>
+</head>
+<body>
+  <h3><span class="user-name" data-user-name>Fulano</span>, deslogar</h3>
+  <h1 id="title">Olá, <span class="user-name" data-user-name>Fulano</span></h1>
+  <h2>Falando sobre <span>os tópicos:</span></h2>
+  <ul data-topics></ul>
+
+  <input data-color-picker type="color">
+  <!-- <input type="button" value="enviar"> -->
+  <!-- <button>enviar</button> -->
+
+  <script src="script.js"></script>
+  <script src="topics.js"></script>
+  <script src="color-wheel.js"></script>
+</body>
+</html>

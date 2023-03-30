@@ -1,0 +1,8 @@
+/* input:focus {
+  background-color: aqua;
+} */
+
+.input-focused {
+  background-color: red;
+  outline: none
+}
