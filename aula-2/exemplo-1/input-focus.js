@@ -4,11 +4,13 @@ inputs.forEach((input) => {
   input.onfocus = () => {
     // input.style.backgroundColor = "red";
     // input.style.outline = "none";
-    input.classList.toggle("input-focused");
+    input.classList.add("input-focused");
+    // input.classList.toggle("input-focused");
   };
 
   input.onblur = () => {
     // input.style.backgroundColor = "initial";
-    input.classList.toggle("input-focused");
+    input.classList.remove("input-focused");
+    // input.classList.toggle("input-focused");
   };
 });
