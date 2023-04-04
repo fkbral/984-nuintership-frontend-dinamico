@@ -12,12 +12,21 @@ registerForm.onsubmit = (event) => {
 
   const userListUL = document.querySelector("[data-user-list]");
 
-  users.push(user.email);
+  if (userEmails.includes(user.email)) {
+    alert("Email já cadastrado");
+    return;
+  }
+
+  userEmails.push(user.email);
+  localStorage.setItem(localStorageUsersKey, JSON.stringify(userEmails));
   renderUser(user.email, userListUL);
+
+  // userEmail.value = "";
+  // userPassword.value = "";
+
+  registerForm.reset();
 
   // [...inputs].map((input) => {
   //   user[input.type] = input.value;
   // });
-
-  alert(JSON.stringify(user));
 };

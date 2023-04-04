@@ -2,7 +2,21 @@
   background-color: aqua;
 } */
 
+button {
+  cursor: pointer;
+}
+
 .input-focused {
   background-color: red;
   outline: none
+}
+
+ul[data-user-list] li button{
+  opacity: 0;
+  pointer-events: none;
+}
+
+ul[data-user-list] li:hover button{
+  opacity: 1;
+  pointer-events: all;
 }

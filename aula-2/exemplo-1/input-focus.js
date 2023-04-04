@@ -10,6 +10,7 @@ inputs.forEach((input) => {
 
   input.onblur = () => {
     // input.style.backgroundColor = "initial";
+    // input.style.outline = "default";
     input.classList.remove("input-focused");
     // input.classList.toggle("input-focused");
   };
