@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-board] {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  list-style: none;
+}
+
+[data-board] li{
+  height: 100px;
+  flex-basis: 30%;
+  border: 2px solid steelblue; 
+}
+
+[data-board] li button{ 
+  padding: 18px;
+  min-width: 64px;
+  width: 100%;
+  height: 100%;
+
+  color: #555;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+}
+
+[data-board] li:nth-child(3n + 1){
+  border-left: none;
+}
+
+[data-board] li:nth-child(3n + 3){
+  border-right: none;
+}
