@@ -1,0 +1,354 @@
+{
+  "cars": [
+    {
+      "id": "a9a67d57-4dd9-4b98-845d-9a9aedcf6722",
+      "name": "Tesla Sentra",
+      "color": "orange",
+      "amountInStock": 86,
+      "fuel": "Electric"
+    },
+    {
+      "id": "208a7837-4973-4eec-b371-e5d33d6580ed",
+      "name": "Cadillac Alpine",
+      "color": "teal",
+      "amountInStock": 29,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "da94ba1a-b7d6-4ee8-b39e-1ed35007cddb",
+      "name": "BMW XC90",
+      "color": "tan",
+      "amountInStock": 39,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "79c22c91-5c23-4d2e-bebb-dcf8b3f27bc2",
+      "name": "Mazda LeBaron",
+      "color": "orchid",
+      "amountInStock": 95,
+      "fuel": "Electric"
+    },
+    {
+      "id": "cf1be23d-90a7-42b3-8a5a-695d6dd9cb5f",
+      "name": "Tesla Taurus",
+      "color": "grey",
+      "amountInStock": 32,
+      "fuel": "Electric"
+    },
+    {
+      "id": "afbeba74-67e3-48de-af90-975e6e746463",
+      "name": "Hyundai Beetle",
+      "color": "lime",
+      "amountInStock": 91,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "f6e7123d-4f38-46f3-9016-d10e161ef45f",
+      "name": "Mini Model S",
+      "color": "teal",
+      "amountInStock": 44,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "799677f9-6290-45d0-b27d-0348a06b397c",
+      "name": "Ferrari A8",
+      "color": "orange",
+      "amountInStock": 35,
+      "fuel": "Electric"
+    },
+    {
+      "id": "9ce51372-b410-4bec-9c2b-3bb318c83238",
+      "name": "Chevrolet Alpine",
+      "color": "olive",
+      "amountInStock": 24,
+      "fuel": "Electric"
+    },
+    {
+      "id": "80ebfdb3-7858-45b3-99b2-184958a2e561",
+      "name": "Tesla XC90",
+      "color": "olive",
+      "amountInStock": 77,
+      "fuel": "Hybrid"
+    },
+    {
+      "id": "ccd2af74-c5f5-4040-b82b-d20f3f105885",
+      "name": "Chevrolet Fiesta",
+      "color": "orange",
+      "amountInStock": 77,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "b9d16286-eab1-41ad-a94e-ff3987e2fedf",
+      "name": "Ferrari Volt",
+      "color": "gold",
+      "amountInStock": 71,
+      "fuel": "Hybrid"
+    },
+    {
+      "id": "17d53173-4b10-4ebe-89f4-479cc82169f5",
+      "name": "Jaguar Jetta",
+      "color": "green",
+      "amountInStock": 52,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "28864f83-1cad-42b5-995f-126c4e5915f1",
+      "name": "Ferrari XC90",
+      "color": "plum",
+      "amountInStock": 11,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "d7e921e1-57b5-4ccd-a73e-f9c1df8eebf9",
+      "name": "Jaguar Malibu",
+      "color": "magenta",
+      "amountInStock": 61,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "46877574-2e5b-49c3-844c-9757e06e66e2",
+      "name": "Volkswagen Escalade",
+      "color": "fuchsia",
+      "amountInStock": 90,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "32180090-0abe-4c1b-9d46-10f5634ae628",
+      "name": "Polestar Cruze",
+      "color": "green",
+      "amountInStock": 49,
+      "fuel": "Electric"
+    },
+    {
+      "id": "614ae92e-f4e7-4c78-b8c7-1937e2f0b799",
+      "name": "Chrysler Element",
+      "color": "orchid",
+      "amountInStock": 53,
+      "fuel": "Electric"
+    },
+    {
+      "id": "5c2f698d-8228-4fae-81c8-fea36ad8fe7a",
+      "name": "Jeep 2",
+      "color": "azure",
+      "amountInStock": 27,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "73607955-5208-4ddf-ba9c-4b1c51cc12e1",
+      "name": "Tesla Beetle",
+      "color": "indigo",
+      "amountInStock": 87,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "9f095c22-aaad-4bcc-9489-8eb7fbea2c49",
+      "name": "Fiat Accord",
+      "color": "maroon",
+      "amountInStock": 11,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "f208dc4b-011c-48e4-a605-38ad8914e99b",
+      "name": "Smart Altima",
+      "color": "grey",
+      "amountInStock": 80,
+      "fuel": "Hybrid"
+    },
+    {
+      "id": "b4904f5a-9172-478a-bcd1-e354b19a3cfd",
+      "name": "Audi XC90",
+      "color": "tan",
+      "amountInStock": 25,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "a7c38f4e-87be-440f-ab99-7ea1580f0982",
+      "name": "Polestar V90",
+      "color": "green",
+      "amountInStock": 71,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "08f63853-1266-471e-9a0b-c1f9dea16b86",
+      "name": "Jeep Model S",
+      "color": "green",
+      "amountInStock": 11,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "10be4934-a0ef-462e-b1cb-d298ebdded3f",
+      "name": "Chrysler Model Y",
+      "color": "turquoise",
+      "amountInStock": 15,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "c522def8-dedb-42c4-96de-29f6400b9a96",
+      "name": "Ford Challenger",
+      "color": "orchid",
+      "amountInStock": 83,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "8763e313-1af3-4894-9902-21770b46f49b",
+      "name": "Bugatti LeBaron",
+      "color": "silver",
+      "amountInStock": 84,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "8414924b-6989-4863-baba-8d65c8b658f9",
+      "name": "Cadillac Model Y",
+      "color": "salmon",
+      "amountInStock": 46,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "b8fdd520-d80d-4d8c-8366-5db41b9a05fc",
+      "name": "Chrysler Land Cruiser",
+      "color": "lime",
+      "amountInStock": 36,
+      "fuel": "Hybrid"
+    },
+    {
+      "id": "0cc69f6e-08ee-45fa-8393-883224f2af8a",
+      "name": "Bugatti Escalade",
+      "color": "tan",
+      "amountInStock": 88,
+      "fuel": "Electric"
+    },
+    {
+      "id": "8af1a4ef-eb11-4d40-a68d-487f441c1d72",
+      "name": "Mercedes Benz F-150",
+      "color": "lavender",
+      "amountInStock": 23,
+      "fuel": "Hybrid"
+    },
+    {
+      "id": "cd84aa66-1ac9-47e3-ad10-e1229a5a0a11",
+      "name": "Chrysler Camry",
+      "color": "orchid",
+      "amountInStock": 72,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "c699c287-4a3a-477b-a00a-5bed293c5db6",
+      "name": "Aston Martin Countach",
+      "color": "indigo",
+      "amountInStock": 80,
+      "fuel": "Hybrid"
+    },
+    {
+      "id": "a5adbf30-4362-4ea0-bf40-2cbfaa56b711",
+      "name": "Mini 1",
+      "color": "orchid",
+      "amountInStock": 96,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "4be7812d-e7ad-4d02-88ca-b029a95a5e3e",
+      "name": "Ford Countach",
+      "color": "azure",
+      "amountInStock": 40,
+      "fuel": "Electric"
+    },
+    {
+      "id": "ce8771cb-a340-4c1e-b7d4-1b27d1d8da81",
+      "name": "Toyota Model T",
+      "color": "mint green",
+      "amountInStock": 49,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "e544795b-c511-448c-b470-80db8087a2bb",
+      "name": "Jeep Model Y",
+      "color": "lavender",
+      "amountInStock": 94,
+      "fuel": "Electric"
+    },
+    {
+      "id": "65ee78b0-4333-4567-af8b-489f2d37b0b1",
+      "name": "Polestar Grand Caravan",
+      "color": "white",
+      "amountInStock": 51,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "d7c16f4f-765e-4e97-92a4-78a37d2f4d11",
+      "name": "Ford Prius",
+      "color": "violet",
+      "amountInStock": 67,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "d0cf99ed-7690-46fe-8fda-35f1d9e5139c",
+      "name": "Porsche 911",
+      "color": "blue",
+      "amountInStock": 42,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "3234e61d-4c4f-4a92-bdec-b9bc3017c202",
+      "name": "Hyundai A4",
+      "color": "grey",
+      "amountInStock": 99,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "bd426839-1269-4add-8028-8f357c20e235",
+      "name": "Maserati Fortwo",
+      "color": "pink",
+      "amountInStock": 73,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "b1cbe83f-cc9a-496a-9341-9e1583495826",
+      "name": "Ferrari Aventador",
+      "color": "lavender",
+      "amountInStock": 21,
+      "fuel": "Diesel"
+    },
+    {
+      "id": "ea3bb02f-3f46-4e63-ace7-8a9cb9e6c44b",
+      "name": "Tesla Land Cruiser",
+      "color": "lavender",
+      "amountInStock": 53,
+      "fuel": "Electric"
+    },
+    {
+      "id": "d134d5c8-ac86-4b9d-bdd8-cf0be0a10612",
+      "name": "Land Rover Accord",
+      "color": "silver",
+      "amountInStock": 75,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "f00e8333-29f2-44c6-93e5-e09a793349a3",
+      "name": "Maserati 2",
+      "color": "grey",
+      "amountInStock": 93,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "bca5714c-aaf4-4a5c-b1f1-64321926e87c",
+      "name": "Lamborghini Beetle",
+      "color": "lavender",
+      "amountInStock": 48,
+      "fuel": "Gasoline"
+    },
+    {
+      "id": "17ed6474-eb43-4b4c-8ad4-2ac3d776ef95",
+      "name": "BMW Durango",
+      "color": "plum",
+      "amountInStock": 71,
+      "fuel": "Hybrid"
+    },
+    {
+      "id": "8e0cab08-4a88-4fb3-83a0-1274e79ab2c8",
+      "name": "Audi Element",
+      "color": "olive",
+      "amountInStock": 22,
+      "fuel": "Diesel"
+    }
+  ]
+}

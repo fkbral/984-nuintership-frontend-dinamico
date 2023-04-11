@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+
+    <template data-car-list-element>
+      <li>
+        <a data-car-url href="">
+          <p><span data-car-name></span> - <span data-car-color></span></p>
+        </a>
+        <p>Quantidade disponível: <span data-car-amount></span></p>
+      </li>
+    </template>
+
+    <h2>Cadastro de carro</h2>
+    <form>
+      <div><label for="name">nome</label><input id="name" type="text"></div>
+      <div><label for="color">cor</label><input id="color" type="text"></div>
+      <div><label for="amountInStock">quantidade em estoque</label><input id="amountInStock" type="number"></div>
+      <button type="submit">cadastrar</button>
+    </form>
+
+    <h2>Carros cadastrados</h2>
+    <ul data-car-list></ul>
+  </body>
+</html>
