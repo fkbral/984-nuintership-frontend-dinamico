@@ -1,0 +1,140 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "jsonplaceholder",
+    "dateExported": "2023-04-11T19:06:09.684Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "daa814e8-3d90-4c1f-b20c-d3c2de6cfc22",
+            "name": "comments",
+            "containerId": "",
+            "created": "2023-04-11T16:38:14.841Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "164a305e-983b-43e9-a8c0-c6f69e098fbb",
+            "name": "posts",
+            "containerId": "",
+            "created": "2023-04-11T16:39:58.964Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "14911220-836e-4306-91f3-a5787cf593e0",
+            "colId": "8835fcf0-6988-4d8f-8a5c-cbed35e8846f",
+            "containerId": "daa814e8-3d90-4c1f-b20c-d3c2de6cfc22",
+            "name": "list comments",
+            "url": "{{baseUrl}}/comments",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-11T16:38:21.566Z",
+            "modified": "2023-04-11T16:38:39.122Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "02357e30-e691-45d4-b24e-746a0e098c7e",
+            "colId": "8835fcf0-6988-4d8f-8a5c-cbed35e8846f",
+            "containerId": "daa814e8-3d90-4c1f-b20c-d3c2de6cfc22",
+            "name": "create comment",
+            "url": "{{baseUrl}}/comments",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-04-11T16:43:45.007Z",
+            "modified": "2023-04-11T16:47:19.822Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"postId\": 1,\n\"name\": \"Meu comentário 2\",\n\"email\": \"felipe@outlook.com\",\n\"body\": \"Achei o texto muito bom\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ecc4428a-3d3a-4173-89b5-ecf8ec993082",
+            "colId": "8835fcf0-6988-4d8f-8a5c-cbed35e8846f",
+            "containerId": "daa814e8-3d90-4c1f-b20c-d3c2de6cfc22",
+            "name": "update comment ",
+            "url": "{{baseUrl}}/comments/2",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-04-11T16:47:48.817Z",
+            "modified": "2023-04-11T16:55:27.965Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"body\": \"Achei o texto muito bom\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ac9b65ac-22ae-4888-94e3-084476015c79",
+            "colId": "8835fcf0-6988-4d8f-8a5c-cbed35e8846f",
+            "containerId": "164a305e-983b-43e9-a8c0-c6f69e098fbb",
+            "name": "list posts",
+            "url": "{{baseUrl}}/posts",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-04-11T16:40:06.289Z",
+            "modified": "2023-04-11T16:40:14.267Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cec2f251-6cdf-48ee-b262-21d757cd1da2",
+            "colId": "8835fcf0-6988-4d8f-8a5c-cbed35e8846f",
+            "containerId": "daa814e8-3d90-4c1f-b20c-d3c2de6cfc22",
+            "name": "patch comment",
+            "url": "{{baseUrl}}/comments/2",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2023-04-11T16:56:48.592Z",
+            "modified": "2023-04-11T16:58:13.489Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"name\": \"Título do meu comentário atualizado\",\n\"body\": \"Achei o texto muito bom\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "68df9b00-8527-4412-9f7e-ba112ec48593",
+            "colId": "8835fcf0-6988-4d8f-8a5c-cbed35e8846f",
+            "containerId": "164a305e-983b-43e9-a8c0-c6f69e098fbb",
+            "name": "read post",
+            "url": "{{baseUrl}}/posts/1",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-04-11T16:40:21.312Z",
+            "modified": "2023-04-11T16:40:31.085Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9201caf0-cdd2-44f3-8719-0d5a46ecae24",
+            "colId": "8835fcf0-6988-4d8f-8a5c-cbed35e8846f",
+            "containerId": "daa814e8-3d90-4c1f-b20c-d3c2de6cfc22",
+            "name": "delete comment",
+            "url": "{{baseUrl}}/users/asgsagsag",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-04-11T16:59:34.101Z",
+            "modified": "2023-04-11T17:00:22.067Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "envId": "e8f58869-2a6d-406c-a297-a637c7d2dbb5"
+    }
+}

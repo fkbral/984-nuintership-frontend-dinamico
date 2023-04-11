@@ -1,0 +1,124 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "fake-server",
+    "dateExported": "2023-04-11T19:06:21.360Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "31906949-482d-4b4e-9e01-50f735aa25b6",
+            "name": "cars",
+            "containerId": "",
+            "created": "2023-04-11T17:24:35.431Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "bc0e1128-01f6-442c-b482-ced0b01d9db2",
+            "colId": "64824c9e-2a12-494e-8a2c-df7eebbdcfc5",
+            "containerId": "31906949-482d-4b4e-9e01-50f735aa25b6",
+            "name": "get cars headers",
+            "url": "{{baseUrl}}/cars",
+            "method": "HEAD",
+            "sortNum": 10000,
+            "created": "2023-04-11T17:40:12.758Z",
+            "modified": "2023-04-11T17:40:43.279Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "02614fee-3706-4d36-be8b-2b97ebe18ac0",
+            "colId": "64824c9e-2a12-494e-8a2c-df7eebbdcfc5",
+            "containerId": "31906949-482d-4b4e-9e01-50f735aa25b6",
+            "name": "list cars",
+            "url": "{{baseUrl}}/cars",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-11T17:24:40.956Z",
+            "modified": "2023-04-11T17:24:50.482Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c006c335-c487-4005-bcee-5eb491d15fe4",
+            "colId": "64824c9e-2a12-494e-8a2c-df7eebbdcfc5",
+            "containerId": "31906949-482d-4b4e-9e01-50f735aa25b6",
+            "name": "create cars",
+            "url": "{{baseUrl}}/cars",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-11T17:24:57.653Z",
+            "modified": "2023-04-11T17:34:21.693Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"217b62f7-d333-41b0-8981-669dc1693920\",\n  \"name\": \"Ford Fiesta\",\n  \"color\": \"grey\",\n  \"amountInStock\": 20\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1dc448b8-9eca-4b07-9248-d69fdab3b455",
+            "colId": "64824c9e-2a12-494e-8a2c-df7eebbdcfc5",
+            "containerId": "31906949-482d-4b4e-9e01-50f735aa25b6",
+            "name": "update car",
+            "url": "{{baseUrl}}/cars/217b62f7-d333-41b0-8981-669dc1693920",
+            "method": "PUT",
+            "sortNum": 35000,
+            "created": "2023-04-11T17:36:43.810Z",
+            "modified": "2023-04-11T17:39:34.869Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Ford Fiesta\",\n  \"color\": \"grey\",\n  \"amountInStock\": 30\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3d83a328-08c7-4371-a85b-a7ddefb63235",
+            "colId": "64824c9e-2a12-494e-8a2c-df7eebbdcfc5",
+            "containerId": "31906949-482d-4b4e-9e01-50f735aa25b6",
+            "name": "patch car",
+            "url": "{{baseUrl}}/cars/217b62f7-d333-41b0-8981-669dc1693920",
+            "method": "PATCH",
+            "sortNum": 37500,
+            "created": "2023-04-11T17:39:38.470Z",
+            "modified": "2023-04-11T17:39:57.462Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"amountInStock\": 50\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "65925370-c300-4cef-9786-199d94dec110",
+            "colId": "64824c9e-2a12-494e-8a2c-df7eebbdcfc5",
+            "containerId": "31906949-482d-4b4e-9e01-50f735aa25b6",
+            "name": "delete cars",
+            "url": "{{baseUrl}}/cars/217b62f7-d333-41b0-8981-669dc1693920",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-04-11T17:35:23.145Z",
+            "modified": "2023-04-11T17:38:12.361Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"217b62f7-d333-41b0-8981-669dc1693920\",\n  \"name\": \"Ford Fiesta\",\n  \"color\": \"grey\",\n  \"amountInStock\": 20\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "envId": "3bf2b65d-bb5a-435f-97b0-a9261a23952f"
+    }
+}

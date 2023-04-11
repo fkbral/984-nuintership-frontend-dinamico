@@ -1,0 +1,40 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "github",
+    "dateExported": "2023-04-11T19:05:57.378Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e4c9cc48-0074-4de0-8238-bc8bae9af702",
+            "colId": "dc8d8198-bb06-4a5d-b221-ecd7d51c1590",
+            "containerId": "",
+            "name": "list users",
+            "url": "{{baseUrl}}/users",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2023-04-11T16:30:06.985Z",
+            "modified": "2023-04-11T16:30:33.905Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ab7eaa7f-fd03-4a37-9cc6-2f906448773e",
+            "colId": "dc8d8198-bb06-4a5d-b221-ecd7d51c1590",
+            "containerId": "",
+            "name": "read user by username",
+            "url": "{{baseUrl}}/users/davign",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-11T16:27:35.926Z",
+            "modified": "2023-04-11T16:31:37.292Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "envId": "976b427f-cde9-4fb3-b06c-0c7f6a840be9"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "client": "Thunder Client",
+    "environmentName": "jsonplaceholder",
+    "dateExported": "2023-04-11T19:07:34.487Z",
+    "version": "1.0",
+    "variables": [
+        {
+            "name": "baseUrl",
+            "value": "https://jsonplaceholder.typicode.com"
+        }
+    ]
+}
