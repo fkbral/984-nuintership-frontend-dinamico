@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "dev:server": "npm-run-all -p fake-server dev",
+    "dev": "npm-run-all -p fake-server dev:server",
+    "dev:server": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "fake-server": "json-server --watch db.json"
