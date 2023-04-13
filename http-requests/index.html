@@ -9,6 +9,7 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
+  <script type="module" src="/create-car.js"></script>
 
     <template data-car-list-element>
       <li>
@@ -20,7 +21,7 @@
     </template>
 
     <h2>Cadastro de carro</h2>
-    <form>
+    <form data-create-car>
       <div><label for="name">nome</label><input id="name" type="text"></div>
       <div><label for="color">cor</label><input id="color" type="text"></div>
       <div><label for="amountInStock">quantidade em estoque</label><input id="amountInStock" type="number"></div>
