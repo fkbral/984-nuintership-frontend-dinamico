@@ -3,10 +3,10 @@ import { faker } from "@faker-js/faker";
 import { v4 as uuid } from "uuid";
 
 export const baseUrl = "http://localhost:3000";
-const carListElementTemplate = document.querySelector(
+export const carListElementTemplate = document.querySelector(
   "[data-car-list-element]"
 );
-const carListUl = document.querySelector("[data-car-list]");
+export const carListUl = document.querySelector("[data-car-list]");
 
 fetch(`${baseUrl}/cars`)
   .then((response) => {
