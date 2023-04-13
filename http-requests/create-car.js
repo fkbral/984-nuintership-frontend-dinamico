@@ -10,7 +10,7 @@ const carToCreateBody = {
 
 const createCarForm = document.querySelector("[data-create-car]");
 
-// Salve o carro no carro e mostre-o na listagem sem ter que recarregar a página
+// Salve o carro no banco e mostre-o na listagem sem ter que recarregar a página
 createCarForm.onsubmit = (event) => {
   event.preventDefault();
 };
