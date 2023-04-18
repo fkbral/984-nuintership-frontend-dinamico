@@ -1,0 +1,92 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "content": "Meu primeiro post",
+      "likes": 70,
+      "createdAt": "2023-04-18T16:51:51.526Z",
+      "updatedAt": "2023-04-18T16:51:51.526Z",
+      "deletedAt": null
+    },
+    {
+      "content": "Meu segundo post",
+      "likes": 0,
+      "createdAt": "2023-04-18T17:40:18.721Z",
+      "updatedAt": "2023-04-18T17:40:18.721Z",
+      "deletedAt": null,
+      "id": 2
+    },
+    {
+      "content": "Meu terceiro post",
+      "likes": 0,
+      "createdAt": "2023-04-18T17:42:59.672Z",
+      "updatedAt": "2023-04-18T17:42:59.672Z",
+      "deletedAt": null,
+      "id": 3
+    },
+    {
+      "content": "quarto\n",
+      "likes": 0,
+      "createdAt": "2023-04-18T17:43:25.405Z",
+      "updatedAt": "2023-04-18T17:43:25.405Z",
+      "deletedAt": null,
+      "id": 4
+    },
+    {
+      "content": "quinto",
+      "likes": 0,
+      "createdAt": "2023-04-18T17:44:17.961Z",
+      "updatedAt": "2023-04-18T17:44:17.961Z",
+      "deletedAt": null,
+      "id": 5
+    },
+    {
+      "content": "sexto",
+      "likes": 0,
+      "createdAt": "2023-04-18T17:44:36.929Z",
+      "updatedAt": "2023-04-18T17:44:36.929Z",
+      "deletedAt": null,
+      "id": 6
+    },
+    {
+      "content": "sétimo",
+      "likes": 0,
+      "createdAt": "2023-04-18T17:45:52.573Z",
+      "updatedAt": "2023-04-18T17:45:52.573Z",
+      "deletedAt": null,
+      "id": 7
+    },
+    {
+      "content": "oitavo",
+      "likes": 0,
+      "createdAt": "2023-04-18T17:46:50.285Z",
+      "updatedAt": "2023-04-18T17:46:50.285Z",
+      "deletedAt": null,
+      "id": 8
+    },
+    {
+      "content": "nono",
+      "likes": 0,
+      "createdAt": "2023-04-18T18:25:49.119Z",
+      "updatedAt": "2023-04-18T18:25:49.119Z",
+      "deletedAt": null,
+      "id": 9
+    },
+    {
+      "content": "décimo",
+      "likes": 0,
+      "createdAt": "2023-04-18T18:28:04.266Z",
+      "updatedAt": "2023-04-18T18:28:04.266Z",
+      "deletedAt": null,
+      "id": 10
+    },
+    {
+      "content": "décimo primeiro",
+      "likes": 0,
+      "createdAt": "2023-04-18T18:32:53.670Z",
+      "updatedAt": "2023-04-18T18:32:53.670Z",
+      "deletedAt": null,
+      "id": 11
+    }
+  ]
+}

@@ -1,21 +1,17 @@
-import './App.css'
+import "./App.css";
+import SumOne from "./components/SumOne";
+import PostFeedPage from "./pages/PostFeedPage";
+import ShoppingListPage from "./pages/ShoppingListPage";
 
 function App() {
-  const shoppingList = ["banana", "aveia", "açaí"]
-
   return (
-    <div className="App">
-     <h2>{'Lista de Compras'.toUpperCase()}</h2>
-     <ul>
-     {/* {shoppingList.map(item => <li><p>{item}</p></li>)} */}
-     {shoppingList.map(item => <ShoppingListItem key={item} item={item} />)}
-     </ul>
-    </div>
-  )
+    <>
+      <h1>Home</h1>
+      {/* <ShoppingListPage /> */}
+      <PostFeedPage />
+      {/* <SumOne /> */}
+    </>
+  );
 }
 
-function ShoppingListItem(props) {
-  return <li><p>{props.item}</p></li>
-}
-
-export { App }
+export { App };
