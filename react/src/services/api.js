@@ -4,11 +4,9 @@ export const api = axios.create({
   baseURL: "http://localhost:3000/",
 });
 
-const setTimeoutPromise = (timeInMs) =>
-  new Promise((resolve, reject) => {
-    setTimeout(() => resolve(), timeInMs);
-  });
+const setTimeoutPromise = (resolvedValue, timeInMs) =>
+  new Promise((resolve) => setTimeout(() => resolve(resolvedValue), timeInMs));
 
-// api.interceptors.response.use((response) => {
-//   return setTimeoutPromise(1000).then(response);
-// });
+api.interceptors.request.use((request) => {
+  return setTimeoutPromise(request, 1000);
+});
