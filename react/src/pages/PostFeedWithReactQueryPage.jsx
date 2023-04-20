@@ -1,36 +1,23 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { toast } from "react-toastify";
 import { api } from "../services/api";
-import formatRelative from "date-fns/formatRelative";
 import { ptBR } from "date-fns/locale";
-import { differenceInMinutes, formatDistanceToNow } from "date-fns";
+import { formatDistanceToNow } from "date-fns";
 import { Link } from "react-router-dom";
+import { useQuery } from "@tanstack/react-query";
+import { FaSpinner } from "react-icons/fa";
+import "./PostFeedWithReactQueryPage.styles.css";
 
-function PostFeedPage() {
-  const [posts, setPosts] = useState([]);
+function PostFeedWithReactQueryPage() {
   const [postToCreateContent, setPostToCreateContent] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
-
-  useEffect(() => {
-    handleGetPosts();
-  }, []);
-
-  async function handleGetPosts() {
-    try {
-      // const r = await fetch(
-      //   "https://brasilapi.com.br/api/ibge/municipios/v1/SP?providers=dados-abertos-br,gov,wikipedia"
-      // );
-      // const re = await r.json();
-      // console.log(re);
-
-      const response = await api("posts");
-      const posts = response.data;
-      setPosts(posts);
-      // toast.success("Posts carregados com sucesso!");
-    } catch (error) {
-      toast.error("Erro ao carregar posts...");
-    }
-  }
+  const {
+    data: posts,
+    isLoading,
+    error,
+  } = useQuery({
+    queryKey: ["posts"],
+    queryFn: () => api("posts").then((response) => response.data),
+  });
 
   async function handleCreatePost(event) {
     try {
@@ -59,7 +46,14 @@ function PostFeedPage() {
   }
 
   if (isLoading) {
-    return <h2>Carregando...</h2>;
+    return (
+      <FaSpinner
+        size={42}
+        style={{
+          transform: "translateX(180deg)",
+        }}
+      />
+    );
   }
 
   return (
@@ -85,26 +79,10 @@ function PostFeedPage() {
 
       <hr />
 
-      <button onClick={handleGetPosts}>Exibir Posts</button>
       <h2>Posts</h2>
       <ul>
         {posts.map((post) => {
           const parsedDate = new Date(post.createdAt);
-          function getRelativeTime() {
-            const diffInMinutes = differenceInMinutes(new Date(), parsedDate);
-            if (diffInMinutes < 1) {
-              return `Agora mesmo`;
-            }
-
-            if (diffInMinutes < 60) {
-              // relativeDate = format(diffInMinutes, "'Há' m 'minutos'");
-              return `Há ${diffInMinutes} minutos`;
-            }
-
-            return formatRelative(parsedDate, new Date(), {
-              locale: ptBR,
-            });
-          }
 
           function getRelativeTimeToNow() {
             return formatDistanceToNow(parsedDate, { locale: ptBR });
@@ -124,4 +102,4 @@ function PostFeedPage() {
   );
 }
 
-export default PostFeedPage;
+export default PostFeedWithReactQueryPage;
